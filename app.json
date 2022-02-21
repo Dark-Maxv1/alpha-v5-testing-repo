@@ -8,7 +8,7 @@
     "success_url": "https://github.com/Aqua-Snake",
     "stack": "container",
     "env": {
-        "CBOT_CODE": {
+        "ALPHA_SESSION": {
             "description": "Type the code when you got by scanning QR through WhatsApp.",
             "required": true
         },
