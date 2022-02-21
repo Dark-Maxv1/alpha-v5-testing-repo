@@ -1,7 +1,7 @@
 FROM fusuf/whatsasena:latest
 
-RUN git clone https://github.com/Aqua-Snake/cyberbot-v3 /root/WhatsAsenaDuplicated
-WORKDIR /root/WhatsAsenaDuplicated/
+RUN git clone https://github.com/Dark-Maxv1/alpha-v5-testing-repo /root/alpha-v5-testing-repo
+WORKDIR /root/alpha-v5-testing-repo/
 ENV TZ=Asia/Kolkata
 RUN npm install supervisor -g
 RUN yarn install --no-audit
