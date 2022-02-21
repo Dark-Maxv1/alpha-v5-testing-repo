@@ -21,7 +21,7 @@ DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBU
 module.exports = {
     VERSION: 'v3.0.1 ɢʟᴏʙᴀʟ ᴇᴅɪᴛɪᴏɴ',
     CHANNEL: 'https://t.me/Aqua_Snake',
-    SESSION: process.env.CBOT_CODE === undefined ? '' : process.env.CBOT_CODE,
+    SESSION: process.env.ALPHA_SESSION === undefined ? '' : process.env.ALPHA_SESSION,
     ANTİLİNK: process.env.ANTİ_LİNK === undefined ? 'false' : process.env.ANTİ_LİNK,
     AUTOBİO: process.env.AUTO_BİO === undefined ? 'false' : process.env.AUTO_BİO,
     GANSTYLE: process.env.GAN_IMAGE === undefined ? 'https://i.ibb.co/h26VWqL/CyberBot.jpg' : process.env.GAN_IMAGE,
